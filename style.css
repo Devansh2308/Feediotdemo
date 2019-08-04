@@ -1,0 +1,391 @@
+
+body { font-family: 'Open Sans', sans-serif;
+ font-weight: normal;
+  font-style: normal;
+   font-size: 14px;
+    line-height: 24px;
+    background-color: #1a1a1a;
+     
+overflow-x: hidden; }
+.main-nav ul 
+{
+ display: inline;
+ float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1a1a1a;
+  position: relative;
+  left: 40%;
+   position: fixed;
+  top: 4.5%;
+  width: 100%;
+}
+.main-nav ul li
+{
+  float: left;
+  color: white;
+  padding: 14px 30px;
+  font-size: 1.25em;
+ font-family: -system-ui,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+background-color: #1a1a1a;
+
+
+
+}
+.main-nav a {
+  color: #fff;
+  
+  text-decoration: none;
+  
+  
+  display: inline-block;
+  
+  position: relative;
+  z-index: 2000;
+}
+.main-nav a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  
+  position: absolute;
+  background: #fa7b80;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.main-nav a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+.main-nav a:hover,.active
+{
+  color:#fa7b80; 
+}
+img{
+  width: 800px;
+  height: 450px;
+  position: relative;
+  left: 355px;
+  top: 20px;
+  transition-timing-function: ease-in-out;
+  transition: 1s;
+}
+img:hover
+{
+     width: 850px;
+     height: 500px;
+     
+     top: 7px;
+     left:350px;
+
+}
+img:hover:after
+{
+  width: 800px;
+  height: 560px;
+  position: relative;
+  left: 350px;
+  top: 50px;
+  
+}
+.buttons a
+{
+border-style: solid;
+border-color: #fa7b80;
+color: white;
+border-radius: 20px;
+position: relative;
+left: 525px;
+top: 0px;
+padding: 10px; 
+text-align: center;
+text-decoration: none;
+transition: 0.5s ;
+
+}
+ .buttons a:hover
+{
+  background-color: #fa7b80;
+  color: black;
+
+  
+}
+.info
+{
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  top: 60px;
+
+}
+
+
+.menu1, .menu2, .menu3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  color: white;
+  position: relative;
+  
+  left:88%;
+  display: none;
+  z-index: 2000;
+ 
+  
+  cursor: pointer;
+
+}
+.popup {
+  background: white;
+  position: relative;
+  left: 22%;
+  height: 410px;
+  top: -400px;
+  width: 200px;
+  color: #4a4a4a;
+  border-radius: 15px;
+  padding: 1%;
+  cursor: pointer;
+  text-align: center;
+  visibility: hidden;
+  
+  z-index: 2000;
+  
+  }
+
+
+.popup .popuptext {
+ 
+  text-align: center;
+  font-family: Helvetica,Arial,sans-serif;
+  background-color: white;
+  z-index: 2000;
+
+}
+/*Styling of popup navigation bar*/
+.it li{
+  list-style-type: none;
+  padding: 5px;
+  text-align: center;
+}
+ .it li:hover{
+  background: #fa7b80;
+  color: white;
+  border-radius: 25px;
+  
+  text-align: center;
+}
+
+
+
+/* Toggle this class - hide and show the popup */
+ .show .popup   {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+  z-index: 100;
+}
+
+@media screen and (max-width:1400px )
+{
+  .main-nav ul li a 
+  {
+    position: relative;
+    left:-70px;
+    z-index: 1000;
+
+  }
+  img
+  {
+       
+       position: relative;
+
+       
+       left: 
+  }
+  .buttons a
+  {
+    position: relative;
+    left: 500px;
+    font-size: 0.9em;
+  }
+}
+@media screen and (max-width:1300px )
+{
+  .main-nav ul li a 
+  {
+    position: relative;
+    left:-140px;
+    z-index: 1000;
+
+  }
+  img
+  {
+       
+       position: relative;
+
+       left: 300px;
+  }
+  .buttons a
+  {
+    position: relative;
+    left: 400px;
+    font-size: 0.9em;
+  }
+}
+@media screen and (max-width:1200px )
+{
+  .main-nav ul li a 
+  {
+    position: relative;
+    left:-200px;
+    z-index: 1000;
+
+  }
+  img
+  {
+       
+       position: relative;
+
+       left: 270px;
+  }
+}
+@media screen and (max-width:1100px )
+{
+  .main-nav ul li a 
+  {
+    position: relative;
+    left:-200px;
+    z-index: 1000;
+
+  }
+  img
+  {
+       
+       position: relative;
+
+       left: 240px;
+  }
+}
+@media screen and (max-width:1000px )
+{
+  .main-nav ul li a 
+  {
+    position: relative;
+    left:-320px;
+    z-index: 1000;
+
+  }
+  img
+  {
+       
+       position: relative;
+
+       left: 180px;
+  }
+  .buttons a
+  {
+    position: relative;
+    left: 200px;
+    font-size: 0.9em;
+  }
+}
+@media screen and (max-width:900px )
+{
+  .main-nav ul li a 
+  {
+    position: relative;
+    left:-370px;
+    z-index: 1000;
+
+  }
+  img
+  {
+       
+       position: relative;
+
+       left: 150px;
+  }
+}
+@media screen and (max-width:800px )
+{
+  .main-nav ul li a 
+  {
+    display: none;
+
+  }
+  img
+  {
+       
+       position: relative;
+
+       left: 0px;
+  }
+  .menu2,.menu3, .menu1 {
+  display:block;
+  top: 60px;
+}
+.buttons a
+
+{
+  font-size: 0.8em;
+}
+}
+@media screen and (max-width:700px )
+{
+  .main-nav ul li a 
+  {
+    display: none;
+
+  }
+  img
+  {
+       
+       position: relative;
+       width: 600px;
+       height: 400px; 
+
+       left: 0px;
+  }
+  .buttons a
+  {
+    position: relative;
+    left: 10px;
+    font-size: 0.8em;
+  }
+}
+@media screen and (max-width:600px )
+{
+  
+  img
+  {
+       
+       position: relative;
+       width: 500px;
+       height: 400px; 
+
+       left: 0px;
+  }
+  .buttons a
+  {
+    position: relative;
+    left: 5px;
+    font-size: 0.8em;
+  }
+
+  
+}
+@media screen and (max-width:500px )
+{
+
+
+}
+
