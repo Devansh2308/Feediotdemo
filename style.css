@@ -385,6 +385,25 @@ transition: 0.5s ;
 }
 @media screen and (max-width:500px )
 {
+ img
+  {
+       
+       position: relative;
+       width: 400px;
+       height: 300px; 
+
+       left: 0px;
+  }
+  .buttons a
+  {
+    position: relative;
+    left: 0px;
+    font-size: 0.8em;
+  }
+  .info
+  {
+    font-size: 0.9em;
+  }
 
 
 }
