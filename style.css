@@ -235,6 +235,7 @@ transition: 0.5s ;
 .mainsch> div
 {
   margin: 10px;
+  align-self: center;
 }
 .Schdule .s1
 {
@@ -795,5 +796,36 @@ left: 0px;
 
   
 }
+@media screen and (max-width:500px )
+{
+  .homep img
+  {
+       
+       position: relative;
+       width: 450px;
+       height: 370px; 
+
+       left: -10px;
+  }
+  .homep img:hover
+  {
+       
+      position: relative;
+       width: 450px;
+       height: 370px; 
+
+       left: -10px;
+
+       
+      
+  }
+  .buttons a
+  {
+    position: relative;
+    left: 0px;
+    font-size: 0.75em;
+  }
+
+  }
 
 
