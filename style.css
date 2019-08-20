@@ -82,15 +82,17 @@ background-color: #1a1a1a;
 ................................................................................
 ................................................................................*/
 .homep img{
-  width: 800px;
-  height: 450px;
-  position: relative;
-  left: 355px;
-  top: 20px;
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 50%;
   transition-timing-function: ease-in-out;
   transition: 1s;
+  margin-top: : auto;
+  top: 50%;
 }
-.homep img:hover
+/*.homep img:hover
 {
      width: 850px;
      height: 500px;
@@ -107,7 +109,7 @@ background-color: #1a1a1a;
   left: 350px;
   top: 50px;
   
-}
+}*/
 .buttons a
 {
 border-style: solid;
@@ -115,7 +117,7 @@ border-color: #fa7b80;
 color: white;
 border-radius: 20px;
 position: relative;
-left: 525px;
+
 top: 0px;
 padding: 10px; 
 text-align: center;
@@ -128,6 +130,12 @@ transition: 0.5s ;
   background-color: #fa7b80;
   color: black;
 
+  
+}
+.buttons
+{
+  
+  /*top: 50%;*/
   
 }
 .info
@@ -213,8 +221,69 @@ transition: 0.5s ;
   animation: fadeIn 1s;
   z-index: 100;
 }
+/*........................................................................................
+......................................................................................
+.................................About......................................................
+.....................................................................................
+...................................................................................*/
 
 
+
+
+.Ab{
+  position: relative;
+  top: -300px;
+}
+.Ab .ahead
+{
+  text-align: center;
+             font-size: 2em;
+             position: relative;
+             top: 350px;
+}
+.abim{
+  background-image: url('images/ab1.jpg');
+
+  width: 100%;
+  height: 600px;
+  margin-left:  0px;
+  z-index: 1000;
+  position: relative;
+  top: 400px;
+
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.Ab .container
+{
+  background: white;
+  border-radius: 10px;
+  height: 400px;
+  width: 800px;
+  position: relative;
+  padding: 10px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  
+  top: -120px;
+  z-index: 1500;
+  box-shadow: 5px 10px;
+  opacity: 0.8;
+  al
+
+}
+.About .container p{
+  font-size: 1.5em;
+  font-family: : "Monotype corsiva";
+  padding: 10px;
+}
 
 
 /*..........................................................................
@@ -222,6 +291,13 @@ transition: 0.5s ;
 ..................................SCHDULE...................................
 ............................................................................
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*/
+.shead
+          {
+             text-align: center;
+             font-size: 2em;
+             position: relative;
+             top: -190px;
+          }
 
                                  /*s1*/
 .mainsch{
@@ -253,8 +329,8 @@ font-size: 2em;
 }
 .Schdule .s1:hover
 {
-  background-color:red;
-   transition-timing-function: ease;
+  background-color: #E83350;
+   transition-timing-function:  ease-in-out;
   transition: 0.5s;
 
 }
@@ -304,6 +380,13 @@ top: -180px;
 font-size: 2em;
     text-align: center;
 
+
+}
+.Schdule .s2:hover
+{
+  background-color: #E83350;
+   transition-timing-function:  ease-in-out;
+  transition: 0.5s;
 
 }
 .Schdule .s2 .dot1 {
@@ -387,6 +470,13 @@ font-size: 2em;
 {
   font-size: 0.6em;
 }
+.Schdule .s3:hover
+{
+  background-color: #E83350;
+   transition-timing-function:  ease-in-out;
+  transition: 0.5s;
+
+}
                                     /*s3*/
 .Schdule .s4
 {
@@ -410,6 +500,13 @@ font-size: 2em;
   position: relative;
   top: -35px;
   opacity: .5;
+
+}
+.Schdule .s4:hover
+{
+  background-color: #E83350;
+   transition-timing-function:  ease-in-out;
+  transition: 0.5s;
 
 }
 .Schdule .s4 .dot1:after {
@@ -440,16 +537,27 @@ font-size: 2em;
 ....................................................................................
 ....................................................................................*/
 
-                             
+          .FAQs .fhead h1 font 
+          {
+             font-size: 2em;
+    text-align: center;
+    position: relative;
+    top: -80px;
+          }                   
        .FAQs{
-        background: #fa7b80;
-        border-radius: 5%;
+        background: #99AAAB;
+        border-radius: 25px;
+        width: 750px;
+        position: relative;
+        left: 45%;
+        top: -120px;
+        box-shadow: 10px 10px;
        }                      
   
    .quses .q1
    {
     margin-left: 5%;
-    background-color:  #fa7b80;
+    background-color:  #99AAAB;
     color:black;
     border: none;
     font-size: 1.5em; 
@@ -457,16 +565,20 @@ font-size: 2em;
    .quses .ans
    {
     display: none;
-    background:  #fa7b80;
+    background: #99AAAB;
     color: #1a1a1a;
     padding:10px;
     margin-left: 5%;
     font-size: 1.4em;
+    transition: all 0.3s ease-in-out 0s,
+   visibility 0s linear 0.3s, z-index 0s linear 0.01s;
 
    } 
   .ans.change
    {
     display: block;
+    transition: all 0.3s ease-in-out 0s, 
+    visibility 0s linear 0.3s, z-index 0s linear 0.01s;
    } 
    .line{
     width: 900px;
@@ -474,7 +586,214 @@ font-size: 2em;
     color: red;
     z-index: 2000;
    }               
+/*....................................................................................
+...................................................................................
+..................................Carousel............................................
+...............................................................................*/
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
 
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #fa7b80;
+  font-weight: bold;
+  font-size: 35px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background: black;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: -70px;
+  border-radius: 50%;
+}
+.prev{
+  left: -70px;
+  border-radius: 50%; 
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.mySlides fade img{
+  border-radius: 5%;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #fa7b80;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/*.....................................................................................
+.....................................................................................
+...................................Contactus....................................
+.....................................................................................
+.....................................................................................*/
+.Cont_
+{
+  background-color: black;
+  padding: 2.5%;
+  width: 100%;
+
+}
+  .Cont_ .C_head
+{
+     text-align: center;
+             font-size: 2em;
+
+}
+.Cont_ .container
+{
+  display: inline-block;
+  text-align: center;
+
+}
+.Cont_ .container .addr
+{ 
+  float: left;
+  padding:50px 100px; 
+  margin-left: 0px;
+
+}
+.Cont_ .container h3
+{
+  color: #fa7b80;
+  font-size: 22px;
+
+}
+.Cont_ .container p
+{
+  color: white;
+  font-size: 18px;
+}
+.Cont_ .container .pho
+{
+float: left;
+padding: 50px 100px;
+}
+.Cont_ .container .emai
+{
+  float: left;
+  padding: 50px 100px;
+}
+.Cont_ .social
+{
+  /*float: left;*/
+  font-size: 35px;
+  text-align: right;
+  padding: 2% 5%;
+
+
+}
+.Cont_ .social a img
+{
+  padding: 0.5rem;
+  background: none;
+  border-radius: 50%;
+   -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+.Cont_ .social a img:hover {
+  -webkit-transform: rotate(1080deg);
+          transform: rotate(1080deg);
+}
+/*.....................................................................................
+.....................................................................................
+...................................scrool bar....................................
+.....................................................................................
+.....................................................................................*/
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px grey; 
+  border-radius: 5px;
+  background: black;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fa7b80; 
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #E83350; 
+}
 
 
 /*.....................................................................................
@@ -505,10 +824,18 @@ font-size: 2em;
   }
   .buttons a
   {
-    position: relative;
-    left: 400px;
+    
     font-size: 0.9em;
   }
+  .FAQs{
+    width: 600px;
+  }
+  .quses .q1
+   {
+    margin-left: 5%;
+    
+    font-size: 1.2em; 
+   } 
 }
 @media screen and (max-width:1300px )
 {
@@ -519,17 +846,10 @@ font-size: 2em;
     z-index: 1000;
 
   }*/
-  .homep img
-  {
-       
-       position: relative;
-
-       left: 250px;
-  }
+ 
   .buttons a
   {
-    position: relative;
-    left: 300px;
+    
     font-size: 0.9em;
   }
 }
@@ -542,13 +862,7 @@ font-size: 2em;
     z-index: 1000;
 
   }*/
-  .homep img
-  {
-       
-       position: relative;
-
-       left: 100px;
-  }
+  
   .main-nav ul li a 
   {
     display: none;
@@ -558,6 +872,15 @@ font-size: 2em;
   display:block;
   top: 60px;
 }
+.FAQs{
+    width: 550px;
+  }
+  .quses .q1
+   {
+    margin-left: 5%;
+    
+    font-size: 1em; 
+   } 
 }
 @media screen and (max-width:1100px )
 {
@@ -568,22 +891,7 @@ font-size: 2em;
     z-index: 1000;
 
   }*/
-  .homep img
-  {
-       
-       position: relative;
-
-       left: 90px;
-  }
-  .homep img:hover
-  {
-       
-       position: relative;
-       left: 90px;
-       
-       
-      
-  }
+  
   .main-nav ul li a 
   {
     display: none;
@@ -603,27 +911,14 @@ font-size: 2em;
     z-index: 1000;
 
   }*/
-  .homep img
-  {
-       
-       position: relative;
-
-       left: 80px;
-  }
-  .homep img:hover
-  {
-       
-       position: relative;
-       left: 80px;
-
-       
-      
-  }
+  
   .buttons a
   {
-    position: relative;
-    left: 200px;
+    
     font-size: 0.9em;
+  }
+  .FAQs{
+    width: 500px;
   }
 }
 @media screen and (max-width:900px )
@@ -635,24 +930,10 @@ font-size: 2em;
     z-index: 1000;
 
   }*/
-  .homep img
-  {
-       
-       position: relative;
-
-       left: 70px;
-       width: 700px;
-  }
-  .homep img:hover
-  {
-       
-       position: relative;
-       left: 70px;
-       width: 700px;
-       
-
-       
-      
+ 
+  .FAQs{
+     
+  left: 20%;
   }
 }
 @media screen and (max-width:800px )
@@ -662,25 +943,8 @@ font-size: 2em;
     display: none;
 
   }
-  .homep img
-  {
-       
-       position: relative;
-
-       left: 0px;
-       width: 650px;
-  }
-  .homep img:hover
-  {
-       
-       position: relative;
-       left: 0px;
-       width: 650px;
-
-
-       
-      
-  }
+  
+  
   .menu2,.menu3, .menu1 {
   display:block;
   top: 60px;
@@ -691,18 +955,94 @@ font-size: 2em;
 {
   font-size: 0.8em;
 }
+.homep img{
+        
+ 
+  width: 70%;
+  height: 60%;
+
+  
+  
+}
+
+}
+
+@media screen and (max-width:700px )
+{
+  .main-nav ul li a 
+  {
+    display: none;
+
+  }
+ 
+  .buttons a
+  {
+    position: relative;
+    left: 10px;
+    font-size: 0.8em;
+  }
+  .FAQs
+  {
+    
+  }
+  .homep img{
+        
+ 
+  width: 80%;
+  height: 70%;
+  margin-top: 100px;
+  
+  
+  
+}
+}
+@media screen and (max-width:600px )
+{
+  
+  
+  .buttons a
+  {
+    position: relative;
+    left: 0px;
+    font-size: 0.8em;
+  }
+  .homep img{
+    margin-top: 100px
+  }
+  .mainsch
+  {
+    margin-left: 10%;
+  }
+
+  
 }
 @media screen and (max-width:500px )
 {
- .homep img
-  {
-       
-       position: relative;
-       width: 400px;
-       height: 300px; 
-
-       left: 0px;
+ 
+  
+  
+  .FAQs{
+     
+  left: 10%;
+  width: 400px;
   }
+  .quses .q1
+   {
+    margin-left: 5%;
+    
+    font-size: 0.8em; 
+   } 
+   .homep img{
+        
+ 
+  width: 80%;
+  height: 70%;
+  margin-top: 100px;
+  
+  
+  
+}
+ 
   .buttons a
   {
     position: relative;
@@ -711,121 +1051,50 @@ font-size: 2em;
   }
   .info
   {
-    font-size: 1.4em;
+    font-size: 15px;
   }
-  .homep img:hover
-  {
-       
-       position: relative;
-       width: 400px;
-       height: 300px;
-left: 0px;
-       
-      
-  }
-
-
-}
-@media screen and (max-width:700px )
-{
-  .main-nav ul li a 
-  {
-    display: none;
-
-  }
-  .homep img
-  {
-       
-       position: relative;
-       width: 600px;
-       height: 400px; 
-
-       left: 0px;
-  }
-  .homep img:hover
-  {
-       
-       position: relative;
-
-       width: 600px;
-       height: 400px; 
-
-       left: 0px;
-
-       
-      
-  }
-  .buttons a
-  {
-    position: relative;
-    left: 10px;
-    font-size: 0.8em;
-  }
-}
-@media screen and (max-width:600px )
-{
   
-  .homep img
-  {
-       
-       position: relative;
-       width: 500px;
-       height: 400px; 
 
-       left: 0px;
   }
-  .homep img:hover
+  @media screen and (max-width:400px )
   {
-       
-       position: relative;
-        position: relative;
-       width: 500px;
-       height: 400px; 
 
-       left: 0px;
+.homep img{
+        
+ 
+  width: 90%;
+  height: 80%;
+  margin-top: 100px;
+  
+  
+  
+}
 
-       
-      
-  }
   .buttons a
   {
     position: relative;
     left: 0px;
-    font-size: 0.8em;
+    font-size: 0.50em;
   }
-
+  .FAQs{
+     
+     
   
-}
-@media screen and (max-width:500px )
-{
-  .homep img
-  {
-       
-       position: relative;
-       width: 450px;
-       height: 370px; 
+  width: 80%;
+  
+  position: relative;
+  left: 10%;
 
-       left: -10px;
+  /*height: 50%;*/
+  /*align:center;*/
+
   }
-  .homep img:hover
-  {
-       
-      position: relative;
-       width: 450px;
-       height: 370px; 
-
-       left: -10px;
-
-       
-      
-  }
-  .buttons a
-  {
-    position: relative;
-    left: 0px;
-    font-size: 0.75em;
-  }
-
+  .quses .q1
+   {
+    margin-left: 5%;
+    
+    font-size: 0.5em; 
+   } 
   }
 
 
