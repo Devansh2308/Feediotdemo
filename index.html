@@ -6,6 +6,9 @@
 	<script type="text/javascript"  src="index.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANxKcYqEv0tTKeHQLCupZaoBVQMMQ96s4&callback=initMap"
+  type="text/javascript"></script>
+
 	<title>Version B</title>
 </head>
 <body >
@@ -29,9 +32,9 @@
 		</div>
 				<ul class="main-sections">
 					<a>VERSION ß</a>
-						<li class="Home">
+						<li class="contactus">
 								
-										<a href=""><span>Contact us</span></a>
+										<a href="#_contact"><span>Contact us</span></a>
 								
 						</li>
 						<li class="Schdule">
@@ -64,9 +67,9 @@
 										<a href="#Schdule"><span>Schdule</span></a>
 								
 						</li>
-						<li class="Register">
+						<li class="about">
 								
-										<a href=""><span>About</span></a>
+										<a href="#abo"><span>About</span></a>
 								
 						</li>
 						<li class="#">
@@ -81,9 +84,9 @@
 		
 		<div id ="image" class="homep"><img src="images/up4.jpg"></div>
 
-   <div class="buttons">
-    <font size="4" face="Comic Sans MS"> <a href="#">&nbsp;&nbsp;Gallery&nbsp;&nbsp;</a></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-     <font size="4" face="Comic Sans MS"><a href="#">&nbsp;&nbsp;Register&nbsp;&nbsp;</a></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <div class="buttons" align="center">
+    <font size="4" face="Comic Sans MS"> <a href="#">&nbsp;&nbsp;Gallery&nbsp;&nbsp;</a></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <font size="4" face="Comic Sans MS"><a href="#">&nbsp;&nbsp;Register&nbsp;&nbsp;</a></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;&nbsp;
      <font size="4" face="Comic Sans MS"><a href="#">&nbsp;&nbsp;Sponsor us&nbsp;&nbsp;</a></font>
    </div>
    <div class="info">
@@ -104,11 +107,38 @@
   										<li><i class="fa fa-address-book" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Contact</li></div></span>
 </div>
 </div>
-<section class="Schdule" id="Schdule">
-	<div class="shead"> <h1>SCHDULE</h1></div>
-	<div class="mainsch">
 
-	<div class="s1">
+
+
+<section class="Ab" id="abo">
+	<div class="ahead"><font color="#fa7b80"><h1>About us</h1></font> </div>
+	<!-- <img src="images/ab1.jpg"> --><div class="abim"></div>
+	<div class="container">
+
+		<p style="
+    font-family:;
+    font-size: 1.3em;
+    font-family:;
+    padding: 20px;
+    margin: inherit;
+    " times="" new="" roman",="" times,="" serif;"=""
+     >October brings in charisma to our lives, be it the advent of winters or the festival of lights. This year October brings in another jewel to add to the festivities, Version β: Possibly India’s biggest hackathon in the near future. Version β stands for a cause; To eliminate rote learning from the academic lives and inculcating spirits of innovation and experimentation among the youth.<br> Hackathons are yet to become the part of the regular norms in the fast developing nation, hence, few tech-enthusiasts from ISTE Students' Chapter MANIT took the charge to do so. With enterprises lining up for bare talents who can innovate and create something of their own, all that the students need is a podium to showcase their talents. <br>With a vast pool of talented individuals shortlisted by a rigorous selection procedure, Version β holds the key to overall development in the social and technical aspects of an individual.
+
+Venturing out in the unknown to create something of worth has never been easier; you succeed, you walk home with a revolutionary product, you fail and there’s nothing you could have lost. There’s just you, your team, and 36 hours to dive into the unknown and rise up with what could possibly be the Google of our era. And the best part, your food and stay are totally free!
+
+</p>
+	</div>
+</section>
+
+
+
+
+<section class="Schdule" id="Schdule">
+	<div class="shead"><font color="#fa7b80"><h1>Sche</font><font color="#fa7b80">dule</font></h1></font> </div>
+	
+	<div class="mainsch" >
+
+	<div class="s1" >
 		<div class="eventno."><br><br><br>1</div>
 		<span class="dot1"></span>
 		<span class="dot2"></span>
@@ -156,8 +186,14 @@
 
 	
 </section>
-<section class="FAQs" id="FAQs">
-	<div class="head"><h1>FAQ's</h1></div>
+<br>
+<br>
+<br>
+<br>
+<div class="shead" id="FAQs"><h1><font color="#fa7b80">FAQ</font><font color="#fa7b80">'s</font></h1></div>
+
+<section class="FAQs" >
+	
 
 <div class="quses" >
 	<button class="q1" onclick="functiondd()"><h3><b>What is version ß? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+</b></h3></button>
@@ -260,6 +296,75 @@
 	
 	
 </section>
+
+<section class="carosel">
+	
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="images/c.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="images/b.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="images/a.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1);decision();">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+</section>
+
+<section class="Cont_" id="_contact">
+	<div class="C_head"><h1><font color="#fa7b80">Contact us</font></h1></div>
+	<div class="container">
+		<div class="addr">
+			<h3> <i class="fas fa-map-marker-alt " ></i>&nbsp;&nbsp;&nbsp;&nbsp;Address</h3>
+			<p>Maulana Azad National Institute of Technology,<br> Bhopal</p>
+		</div>
+		<div class="pho">
+			<h3> <i class="fas fa-phone"></i>&nbsp;&nbsp;&nbsp;&nbsp;Phone</h3>
+			<p>Abcd: 999999999<br>Efgh: 888888858</p>
+		</div>
+		<div class="emai">
+			<h3> <i class="fas fa-envelope-square"></i>&nbsp;&nbsp;&nbsp;&nbsp;Email</h3>
+			<p>istemanit@gmail.com</p>
+		</div>
+	</div>
+	<div class="social">
+		<a href=""><img src="images/fb.png"></a>
+		<a href=""><img src="images/ins.png"></a>
+		<a href=""><img src="images/youtube.png"></a>
+		<a href=""><img src="images/linkedin.png"></a>
+	</div>
+	<div style="text-align: center;
+	font-size: 25px;
+	color: #fa7b80"> Find us on Map</div>
+</section>
+<section class="map">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.6968988373915!2d77.40640471492294!3d23.217714184854565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c42e585355ba1%3A0x7f9bd71e86c1f462!2sNEW+TEACHING+BLOCK+(N.T.B)!5e0!3m2!1sen!2sin!4v1565715666806!5m2!1sen!2sin" width="1920" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+</section>
+
 
 
 
