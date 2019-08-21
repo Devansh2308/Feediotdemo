@@ -1088,20 +1088,31 @@ padding: 50px 100px;
      
      
   
-  width: 80%;
+  width: 90%;
   
   position: relative;
-  left: 10%;
+  left: 5%;
+  height: auto;
+  text-align: left;
+  padding-top: 5%;
+  padding-bottom: 5%;
 
   /*height: 50%;*/
   /*align:center;*/
 
   }
+  .FAQs  .plus
+  {
+    float: right;
+    display: inline;
+
+  }
   .quses .q1
    {
-    margin-left: 5%;
+    margin-left: 2%;
     
-    font-size: 0.5em; 
+    font-size: 1em; 
+
    } 
   }
 
