@@ -303,10 +303,10 @@ transition: 0.5s ;
 .mainsch{
   display: flex;
   justify-content: space-between;
-  margin: 20px;
+  margin: 5%;
   flex-wrap: wrap;
   align-content: space-between;
-  margin: 10px;
+  
 }
 .mainsch> div
 {
@@ -322,6 +322,8 @@ color: white;
 position: relative;
 top: -180px;
 font-size: 2em;
+margin-left: auto;
+margin-right: auto;
     text-align: center;
   
 
@@ -379,6 +381,8 @@ position: relative;
 top: -180px;
 font-size: 2em;
     text-align: center;
+    margin-left: auto;
+margin-right: auto;
 
 
 }
@@ -434,6 +438,8 @@ position: relative;
 top: -180px;
 font-size: 2em;
     text-align: center;
+    margin-left: auto;
+margin-right: auto;
 
 
 }
@@ -488,6 +494,8 @@ position: relative;
 top: -180px;
 font-size: 2em;
     text-align: center;
+    margin-left: auto;
+margin-right: auto;
 
 
 }
