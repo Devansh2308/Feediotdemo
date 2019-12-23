@@ -1,0 +1,279 @@
+.container{
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  margin-top: -20px;
+
+}
+.carousel-inner img{
+  height: 300px;
+}
+.Brownpebble_responsive li
+{
+  font-family: 'Roboto Slab', serif;
+  color: white;
+  font-size: 40px;
+}
+.Brownpebble_responsive li a{
+  color: white;
+}
+.front_page{
+    
+    background-image: url(../images/bg3.jpg);
+    min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -20px;
+}
+.fp_text{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 150px;
+  padding: 20px;
+  padding-left: 100px;
+  text-align: center;
+}
+.fpimg1{
+  width: 450px;
+  height: 500px;
+  position :relative;
+/*animation: mymove 5s infinite;*/
+}
+/*.fpimg2{
+  width: 200px;
+  height: 200px;
+  position :relative;
+animation: mymoves 5s infinite;
+}*/
+@keyframes mymove {
+  0%   {top: 0px;}
+  50%{ top:50px; }
+  100%{top:0px;}
+}
+@keyframes mymoves {
+  0%   {top: 50px;}
+  50%{ top:0px; }
+  100%{top:50px;}
+}
+
+.navbar-inverse
+{
+   background: black;
+   
+}
+.nav navbar-nav{
+  
+    padding: 10px;
+    font-size: 10px;
+
+}
+.navright{
+  background-color: #FF3031;
+  margin: 10px;
+  border-radius: 2px;
+  color: white;
+
+
+
+}
+.navright a{
+  color: white!important;
+  padding: 5px !important;
+  font-size: 15px;
+}
+
+#resnav{
+  margin-top: 5px;
+}
+#rightnav{
+  margin-top: 12px;
+}
+.row{
+  margin-top: 100px;
+}
+.BP_about{
+  background-color: black;
+}
+.about_head{
+  width: 208px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FF3031;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff !important;
+    background-color: red!important;
+    padding: 10px!important;
+    margin-top: 5px!important;
+    border-radius: 10px!important;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white !important;
+}
+#about_content
+{
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 16px;
+  color: #999999;
+  line-height:30px;
+  padding-left: 40px;
+}
+.card{
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 36rem !important; 
+  height: 47rem !important;
+  padding: 30px;
+  text-align: center;
+  margin-top: 20px;
+
+}
+.whyus{
+  background-color: #1a1a1a;
+  padding-top:80px;
+  padding-bottom: 200px;
+}
+#whyus_head{
+  color: #FF3031;
+  font-size: 60px;
+}
+#card_img{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.BP_about{
+  padding-bottom: 70px;
+}
+.card-title{
+      font-family: 'Roboto', sans-serif !important;
+    font-size: 20px !important;
+    color: white;
+}
+.card-text{
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+color: #A4B0BD !important;
+font-size: 16px !important;
+}
+#intro{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+color: #A4B0BD !important;
+font-size: 20px !important;
+width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.footer-section{
+  background-color: black;
+  color: #999999;
+}
+#contact_mainicons{
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+}
+.btn-primary {
+    color: #fff !important;
+    background-color: red !important;
+    border-color: red !important;
+    }
+    .footer_head{
+      font-size: 60px;
+      color: #FF3031;
+      text-align: center;
+      padding-top: 50px;
+    }
+@media(max-width: 1400px)
+{
+  .fp_text 
+  {
+     font-size:120px; 
+  }
+  .fpimg1
+  {
+     width: 400px;
+     height: 450px;
+  }
+
+
+}
+@media(max-width: 1200px)
+{
+  #fp_img1
+  {
+    display: none;
+
+  }
+  .fp_text
+  {
+    width: 80% !important;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+@media(max-width: 900px)
+{
+
+}
+@media(max-width: 700px)
+{
+  .fp_text 
+  {
+     font-size:80px; 
+  }
+  .card
+  {
+    width: 80% !important;
+  }
+
+}
+@media(max-width: 450px)
+{
+  .fp_text 
+  {
+     font-size:50px; 
+  }
+
+}
+@media(max-width: 450px)
+{
+  #whyus_head
+  {
+     font-size:40px; 
+  }
+  .card{
+    padding: 10px !important;
+    height: 550px !important;
+
+  }
+  #card_img{
+    height: 70px !important;
+
+  }
+  #img_about
+  {
+    display: none;
+  }
+  .footer_head
+  {
+    font-size: 40px;
+  }
+  .carousel-inner
+  {
+    height: 500px;
+  }
+
+}
+
+
+
